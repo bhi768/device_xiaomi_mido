@@ -406,6 +406,7 @@
      <!-- Boolean indicating if current platform supports HFP inband ringing -->
      <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
 
+<<<<<<< HEAD
     <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveBatteryLed">true</bool>
 
@@ -419,4 +420,7 @@
 
     <bool name="config_button_brightness_support">true</bool>
     <integer name="config_button_brightness_default">128</integer>
+
+    <!-- Enable NightLight -->
+    <bool name="config_nightDisplayAvailable">true</bool>
 </resources>
