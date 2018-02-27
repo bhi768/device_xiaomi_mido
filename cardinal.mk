@@ -16,7 +16,7 @@
 
 $(call inherit-product, device/xiaomi/mido/full_mido.mk)
 
-# Inherit some common Cardinal-Aosp stuff.
+# Inherit some Bird shit.
 $(call inherit-product, vendor/cardinal/common.mk)
 
 PRODUCT_NAME := cardinal_mido
