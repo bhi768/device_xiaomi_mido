@@ -197,4 +197,4 @@ ro.sys.fw.trim_enable_memory=2147483648
 wifi.interface=wlan0
 
 # Maintainer
-ro.cardinal.maintainer=Sathish K/Rohit
+ro.cardinal.maintainer=Sathish K | Rohit
