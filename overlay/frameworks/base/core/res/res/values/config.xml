@@ -442,14 +442,8 @@
          Used to decide if we show pulse settings -->
     <bool name="config_ledCanPulse">true</bool>
 
-    <bool name="config_button_brightness_support">true</bool>
-    <integer name="config_button_brightness_default">128</integer>
-
     <!-- Enable NightLight -->
     <bool name="config_nightDisplayAvailable">true</bool>
-
-    <!-- Ambient music -->
-    <bool name="config_canForceDozeNotifications">true</bool>
 
     <!-- Default value for proximity check on screen wake
      NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
