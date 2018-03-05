@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- Copyright (C) 2013 The CyanogenMod Project-->
+
+<resources>
+   <!-- Manual provisioning -->
+   <bool name="config_enableManualSubProvisioning">true</bool>
+</resources>
