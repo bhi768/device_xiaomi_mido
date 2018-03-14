@@ -1,10 +1,12 @@
 [
  {
-   "repository": "android_device_qcom_common",
-   "target_path": "device/qcom/common"
+   "repository":  "bhi768/xiaomi_msm8953",
+   "target_path": "kernel/xiaomi/msm8953",
+   "branch":      "oreo"
  },
  {
-   "repository": "android_kernel_xiaomi_msm8953",
-   "target_path": "kernel/xiaomi/msm8953"
+   "repository":  "bhi768/proprietary_vendor_xiaomi",
+   "target_path": "kernel/xiaomi/msm8953",
+   "branch":      "oreo"
  }
 ]
