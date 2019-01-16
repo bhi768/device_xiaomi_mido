@@ -550,5 +550,9 @@
 
     <!-- Doze: does this device support STATE_DOZE and STATE_DOZE_SUSPEND?  -->
     <bool name="doze_display_state_supported">true</bool>
+
+    <!-- Whether device needs to wait for Qualcomm MPCTL service to start
+         before setting power profiles on boot. -->
+    <bool name="config_waitForMpctlOnBoot">true</bool>
 </resources>
 
