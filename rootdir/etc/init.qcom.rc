@@ -415,18 +415,12 @@ service vendor.tftp_server /vendor/bin/tftp_server
    user root
    writepid /dev/cpuset/system-background/tasks
 
-service vendor.start_hci_filter /system/vendor/bin/wcnss_filter
+service fm_dl /vendor/bin/init.qti.fm.sh
     class late_start
-    user bluetooth
-    group bluetooth diag system wakelock
-    seclabel u:r:bluetooth:s0
+    user system
+    group system
     disabled
-
-on property:vendor.wc_transport.start_hci=true
-    start vendor.start_hci_filter
-
-on property:vendor.wc_transport.start_hci=false
-    stop vendor.start_hci_filter
+    oneshot
 
 service vendor.atfwd /vendor/bin/ATFWD-daemon
     class late_start
