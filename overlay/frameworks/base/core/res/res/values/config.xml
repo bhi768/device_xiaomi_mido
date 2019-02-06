@@ -548,5 +548,7 @@
     <bool name="config_proximityCheckOnWake">true</bool>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 
+    <!-- Doze: does this device support STATE_DOZE and STATE_DOZE_SUSPEND?  -->
+    <bool name="doze_display_state_supported">true</bool>
 </resources>
 
